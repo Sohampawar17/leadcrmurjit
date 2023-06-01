@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include leadcrm *.css
+recursive-include leadcrm *.csv
+recursive-include leadcrm *.html
+recursive-include leadcrm *.ico
+recursive-include leadcrm *.js
+recursive-include leadcrm *.json
+recursive-include leadcrm *.md
+recursive-include leadcrm *.png
+recursive-include leadcrm *.py
+recursive-include leadcrm *.svg
+recursive-include leadcrm *.txt
+recursive-exclude leadcrm *.pyc
